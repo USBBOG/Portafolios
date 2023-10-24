@@ -8290,6 +8290,11 @@ textarea.form-control-lg {
   border-top-left-radius: var(--bs-border-radius) !important;
 }
 
+#btn-usb{
+  background-color: #fd7e14;
+  border-color: rgb(237,116,20);
+}
+
 .visible {
   visibility: visible !important;
 }
