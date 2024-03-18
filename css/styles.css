@@ -108,6 +108,14 @@ body {
   font-size: 15px;
 }
 
+.card {
+  transition: transform 0.3s ease; /* Transición de 0.3 segundos con efecto de aceleración */
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
