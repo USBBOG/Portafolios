@@ -15,7 +15,7 @@
 
 <body>
   <!-- Responsive navbar-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="border-color: #202429;">
     <div class="container">
       <a class="navbar-brand" href="#!"><img src="assets/pit-white.png" alt="Logo pit" width="110" height="110"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -32,49 +32,119 @@
       </div>
     </div>
   </nav>
+
+  <!--Section Carousel videos-->
+  <section class="bg-dark" style="border-color: #202429;">
+    <div class="container py-3 text-bg-dark">
+        <!--Carousel-->
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-sm-12 col-md-8 col-lg-8">
+              <div class="carousel-inner">
+                <!--First pitch-->
+                <div class="carousel-item active rounded" data-bs-interval="10000">
+                  <row class="row-cols-1 justify-content-center align-items-center text-center">
+                    <h1 class="text-bg-dark"><span id="hightlight">R</span>overCrop</h1>
+                    <hr>
+                  </row>
+                  <div class="ratio ratio-16x9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/CbEhsMGNxVQ?si=a72womz7qieRPO1z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </div>
+                  <row class="row-cols-1 justify-content-center align-items-center">
+                    <div class="col col-md-8 text-center mx-auto mt-3">
+                      <a class="btn btn-primary w-100" style="background-color: var(--bs-orange); border-color: var(--bs-orange);" href="tds-s5.html">Visitar</a>
+                    </div>
+                  </row>
+                </div>
+                <!--Second pitch-->
+                <div class="carousel-item rounded" data-bs-interval="10000">
+                  <row class="row-cols-1 justify-content-center align-items-center text-center">
+                    <h1 class="text-bg-dark"><span id="hightlight">D</span>alliat</h1>
+                    <hr>
+                  </row>
+                  <div class="ratio ratio-16x9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xOCkhKsJ8HY?si=xPKoes1R_Q08aF24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  </div>
+                  <row class="row-cols-1 justify-content-center align-items-center">
+                    <div class="col col-md-8 text-center mx-auto mt-3">
+                      <a class="btn btn-primary w-100" style="background-color: var(--bs-orange); border-color: var(--bs-orange);" href="tds-s3.html">Visitar</a>
+                    </div>
+                  </row>
+                </div>
+                <!--Third pitch-->
+                <div class="carousel-item rounded" data-bs-interval="10000">
+                  <row class="row-cols-1 justify-content-center align-items-center text-center">
+                    <h1 class="text-bg-dark"><span id="hightlight">S</span>afeZone</h1>
+                    <hr>
+                  </row>
+                  <div class="ratio ratio-16x9">
+                    <iframe src="https://drive.google.com/file/d/1I03iyRqtAo7sR2tXenNpnbhJ0b02pekq/preview" width="640" height="480" allow="autoplay"></iframe>
+                  </div>
+                  <row class="row-cols-1 justify-content-center align-items-center">
+                    <div class="col col-md-8 text-center mx-auto mt-3">
+                      <a class="btn btn-primary w-100" style="background-color: var(--bs-orange); border-color: var(--bs-orange);" href="tds-s3.html">Visitar</a>
+                    </div>
+                  </row>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Control buttons-->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Wave-->
+  <div class="mb-4">
+    <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 180" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(32, 36, 41, 1)" offset="0%"></stop><stop stop-color="rgba(32, 36, 41, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,144L30,129C60,114,120,84,180,69C240,54,300,54,360,63C420,72,480,90,540,87C600,84,660,60,720,69C780,78,840,120,900,126C960,132,1020,102,1080,75C1140,48,1200,24,1260,30C1320,36,1380,72,1440,90C1500,108,1560,108,1620,105C1680,102,1740,96,1800,99C1860,102,1920,114,1980,111C2040,108,2100,90,2160,72C2220,54,2280,36,2340,27C2400,18,2460,18,2520,21C2580,24,2640,30,2700,45C2760,60,2820,84,2880,90C2940,96,3000,84,3060,66C3120,48,3180,24,3240,30C3300,36,3360,72,3420,84C3480,96,3540,84,3600,78C3660,72,3720,72,3780,87C3840,102,3900,132,3960,126C4020,120,4080,78,4140,75C4200,72,4260,108,4290,126L4320,144L4320,180L4290,180C4260,180,4200,180,4140,180C4080,180,4020,180,3960,180C3900,180,3840,180,3780,180C3720,180,3660,180,3600,180C3540,180,3480,180,3420,180C3360,180,3300,180,3240,180C3180,180,3120,180,3060,180C3000,180,2940,180,2880,180C2820,180,2760,180,2700,180C2640,180,2580,180,2520,180C2460,180,2400,180,2340,180C2280,180,2220,180,2160,180C2100,180,2040,180,1980,180C1920,180,1860,180,1800,180C1740,180,1680,180,1620,180C1560,180,1500,180,1440,180C1380,180,1320,180,1260,180C1200,180,1140,180,1080,180C1020,180,960,180,900,180C840,180,780,180,720,180C660,180,600,180,540,180C480,180,420,180,360,180C300,180,240,180,180,180C120,180,60,180,30,180L0,180Z"></path></svg>
+  </div>
+
+  <!-- Page content -->
+  <div class="container">
+    <!--Section header-->
+    <section class="mt-5">
+      <!-- Post header-->
+      <header class="mb-5 text-center">
+        <!-- Post title-->
+        <h1 class="fw-bolder mb-1"><span id="hightlight">P</span>royectos Integradores Tecnologías</h1>
+        <hr>
+      </header>
+    </section>
+    <!-- Page article -->
+    <section class="mt-5">
+      <article>
+        <row class="row">
+          <div class="col mb-4">
+            <p class="fs-5 mb-6">En este espacio se presentan los proyectos integradores desarrollados presentados por
+              los estudiantes de los programas de tecnologías de la Universidad de San Buenaventura Sede Bogotá.</p>
+            <p class="fs-5 mb-6">Cada grupo ha consolidado sus resultados en un repositorio, en donde se puede
+              evidenciar el avance y la evolución de sus proyectos a lo largo del semestre.</p>
+            <p class="fs-5 mb-6">Los proyectos integradores se han llevado a cabo con el acompañamiento de un docente en
+              cada semestre de los programas de tecnología en automatización industrial y tecnología en desarrollo de
+              software.</p>
+          </div>
+          <div class="col d-flex justify-content-center align-items-center">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jvRFUqyasf8?si=j1c8bZQ1LIiBDiQb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </row>
+      </article>
+    </section>
+  </div>
+
+  
   <!-- Page content-->
   <div class="container mt-5">
     <div class="row">
-      <div class="col-lg-8">
-        <!-- Post content-->
-        <article>
-          <!-- Post header-->
-          <header class="mb-4">
-            <!-- Post title-->
-            <h1 class="fw-bolder mb-1">Proyectos Integradores Tecnologías</h1>
-            <hr>
-            <!-- Post meta content-->
-            <div class="text-muted fst-italic mb-2">Universidad de San Buenaventura Bogotá</div>  
-            <!-- Post categories-->
-          </header>
-
-          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jvRFUqyasf8?si=j1c8bZQ1LIiBDiQb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-          <section class="my-5">
-            <p class="fs-6 mb-4">En este espacio se presentan los proyectos integradores desarrollados presentados por
-              los estudiantes de los programas de tecnologías de la Universidad de San Buenaventura Sede Bogotá.</p>
-            <p class="fs-6 mb-4">Cada grupo ha consolidado sus resultados en un repositorio, en donde se puede
-              evidenciar el avance y la evolución de sus proyectos a lo largo del semestre.</p>
-            <p class="fs-6 mb-4">Los proyectos integradores se han llevado a cabo con el acompañamiento de un docente en
-              cada semestre de los programas de tecnología en automatización industrial y tecnología en desarrollo de
-              software.</p>
-          </section>
-
-          <!-- button votar -->
-          <section class="py-4">
-            <h1 class="fw-bolder mb-1 text-center">¡Vota Aqui!</h1>
-            <hr class="pb-2">
-            <p class="fs-6 text-center mb-4">Te invitamos a participar en nuestra encuesta para elegir el proyecto
-              integrador
-              destacado. Haz clic en el botón a continuación y ejerce tu voto. Tu opinión es fundamental para reconocer
-              y premiar el esfuerzo y la creatividad de nuestros estudiantes. ¡Tu voto cuenta!</p>
-            <div class="d-grid gap-2 col-6 mx-auto pt-2">
-              <a id="btn-usb" href="https://forms.office.com/r/vAh3yrdybz" class="btn btn-primary" target="_blank-button" type="button">¡Vota Aquí!</a>
-            </div>
-          </section>
-        </article>
-      </div>
-
       <!-- Side widgets-->
       <div class="col-lg-4">
         <!-- Search widget-->

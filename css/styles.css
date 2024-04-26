@@ -116,6 +116,10 @@ body {
   transform: scale(1.05);
 }
 
+#hightlight{
+  color: var(--bs-orange);
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
