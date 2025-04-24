@@ -10,10 +10,9 @@
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!--Bootstrap-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
-
 </head>
 
 <body>
@@ -21,17 +20,29 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="index.html"><img src="assets/pit-white.png" alt="Logo pit" width="110"
-                    height="110"></a>
+                    height="110" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" id="inactive" href="index.html">INICIO</a></li>
-                    <li class="nav-item"><a class="nav-link" id="inactive" href="tai.html">TAI</a></li>
-                    <li class="nav-item"><a class="nav-link active" id="active" href="tds.html">TDS</a></li>
-                    <li class="nav-item"><a class="nav-link" id="inactive" href="rubricas.html">RÚBRICAS</a></li>
-                    <li class="nav-item"><a class="nav-link" id="inactive" href="historial.html">HISTORIAL</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="inactive" href="index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="inactive" href="tai.html">TAI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" id="active" href="tds.html">TDS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="inactive" href="rubricas.html">RÚBRICAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="inactive" href="historial.html">HISTORIAL</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -39,6 +50,7 @@
 
     <!--Page Content-->
     <section class="container mt-5">
+        <!-- Proyects -->
         <div class="row text-center mb-4">
             <div class="col-1 d-flex justify-content-start">
                 <button class="btn btn-white" onclick="window.history.back();">
@@ -49,40 +61,47 @@
                 <h1 class="fw-bolder mb-4">Semestre 2</h1>
             </div>
         </div>
-        <!-- Proyects -->
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-3">
-
             <!--Proyect 1-->
             <div class="col">
                 <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal1">
-                    <img src="assets/tds/s2/1.png" class="card-img-top" alt="">
+                    <img src="assets/tds/s1/1.png" class="card-img-top" alt="" />
                     <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">ArtByte Technology</h5>
+                        <h5 class="card-title text-black">MATCH MEETING</h5>
                     </div>
                     <div class="card-footer text-center g-1">
                         <span class="badge text-bg-dark">Completo</span>
-                        <span class="badge text-bg-dark">Innovación</span>
-                        <span class="badge text-bg-dark">Creativo</span>
+                        <span class="badge text-bg-dark">Futbol</span>
+                        <span class="badge text-bg-dark">Red</span>
                     </div>
                 </div>
                 <div class="modal" id="modal1">
                     <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
                             <div class="modal-header bg bg-success text-bg-success">
-                                <h4 class="modal-title">ArtByte Technology</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <h4 class="modal-title">MATCH MEETING</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 <div class="ratio ratio-16x9" id="youtube-container-modal1">
-                                
+                                    
                                 </div>
                                 <p class="mt-3">
-                                    El proyecto "Art Byte" pretende desarrollar una máquina autónoma para tatuar letras en el antebrazo. Se busca mejorar la precisión y eficiencia del proceso, empleando tecnología moderna. Se plantea el desarrollo de una aplicación que interactue con la maquina.
+                                    Nuestra aplicación facilitara a un grupo de usuarios que
+                                    estén interesados en el ámbito futbolístico, y estén en
+                                    cualquier parte de la ciudad de Bogotá para encuentros de
+                                    partidos entre equipos de fútbol 5, 11 y microfútbol creados
+                                    previamente por la aplicación.
                                 </p>
                             </div>
                             <div class="modal-footer align-items-center justify-content-center mt-2 mb-2">
-                                <a href="https://artbyte4.github.io/artbyte-technology/" style="text-decoration: none;" target="_blank-button">
-                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio </button>
+                                <a href="https://nicolasrg0106.github.io/Match-Meeting/" style="text-decoration: none"
+                                    target="_blank-button">
+                                    <button type="button"
+                                        class="btn btn-lg bg bg-dark text-white border border-color-none rounded">
+                                        <i class="bi bi-github"></i> Portafolio
+                                    </button>
                                 </a>
                             </div>
                         </div>
@@ -93,34 +112,47 @@
             <!--Proyect 2-->
             <div class="col">
                 <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal2">
-                    <img src="assets/tds/s2/2.png" class="card-img-top" alt="">
+                    <img src="assets/tds/s1/2.png" class="card-img-top" alt="" />
                     <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">GAIT</h5>
+                        <h5 class="card-title text-black">INTEARNING</h5>
                     </div>
                     <div class="card-footer text-center g-1">
-                        <span class="badge text-bg-dark">Simplicidad</span>
-                        <span class="badge text-bg-dark">Optimización</span>
-                        <span class="badge text-bg-dark">Distribución</span>
+                        <span class="badge text-bg-dark">Completo</span>
+                        <span class="badge text-bg-dark">Memoria</span>
+                        <span class="badge text-bg-dark">App</span>
                     </div>
                 </div>
                 <div class="modal" id="modal2">
                     <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
                             <div class="modal-header bg bg-dark text-bg-dark">
-                                <h4 class="modal-title">GAIT</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <h4 class="modal-title">INTEARNING</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 <div class="ratio ratio-16x9" id="youtube-container-modal2">
                                     
                                 </div>
                                 <p class="mt-3">
-                                    El proyecto se plantea el desarrollo de una plataforma web que pueda utilizar los clientes para optimizar el canal de distribucion directo entre la compañia y sus distribuidores a nivel nacional.
+                                    Queremos desarrollar un proyecto sobre un
+                                    aplicativo móvil el cual tiene como propósito ayudar a la mejora de la memoria y la
+                                    concentración
+                                    a través de varios juegos didácticos e interactivos para niños de un rango de 4 a 6
+                                    años de edad. El propósito del aplicativo móvil es ayudar al fortalecimiento de la
+                                    memoria de niños entre
+                                    4 a 6 años que podremos enfocar en varias materias de estudio básicas con el fin de
+                                    alcanzar
+                                    mejores resultados.
                                 </p>
                             </div>
                             <div class="modal-footer align-items-center justify-content-center mt-2 mb-2">
-                                <a href="https://sosasebastian.github.io/GAIT/" style="text-decoration: none;" target="_blank-button">
-                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio</button>
+                                <a href="https://erickhram.github.io/Intearning.github.io/semestre%201.html"
+                                    style="text-decoration: none" target="_blank-button">
+                                    <button type="button"
+                                        class="btn btn-lg bg bg-dark text-white border border-color-none rounded">
+                                        <i class="bi bi-github"></i> Portafolio
+                                    </button>
                                 </a>
                             </div>
                         </div>
@@ -128,36 +160,40 @@
                 </div>
             </div>
 
-            <!--Proyect 3-->
+            <!--Project 3-->
             <div class="col">
                 <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal3">
-                    <img src="assets/tds/s2/3.png" class="card-img-top" alt="">
+                    <img src="assets/tds/s1/3.png" class="card-img-top" alt="">
                     <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">AnyLanguage</h5>
+                        <h5 class="card-title text-black">MAD-SAN</h5>
                     </div>
                     <div class="card-footer text-center g-1">
-                        <span class="badge text-bg-danger">Incompleto</span>
-                        <span class="badge text-bg-dark">Inclución</span>
+                        <span class="badge text-bg-dark">Completo</span>
+                        <span class="badge text-bg-dark">Innovación</span>
+                        <span class="badge text-bg-dark">Salud</span>
                     </div>
                 </div>
                 <div class="modal" id="modal3">
                     <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
                             <div class="modal-header bg bg-dark text-bg-dark">
-                                <h4 class="modal-title">AnyLanguage</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <h4 class="modal-title">MAD-SAN</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 <div class="ratio ratio-16x9" id="youtube-container-modal3">
                                     
                                 </div>
                                 <p class="mt-3">
-                                    AnyLanguage es un proyecto llevado a cabo para la realización de un aplicativo de enseñanza del ingles a niños en un rango de 5 a los 12 años de edad, implementando diferentes tecnologias y multimedia. De este modo llegando a una plataforma mucho más dinámica y simplificada.
+                                    Varias personas han perdido porcentaje de su vista a través del tiempo o han perdido este sentido por diferentes ámbitos de su vida o incluso algunos nacen con esta discapacidad teniendo que buscar apoyo mediante el bastón guiador. Según el CRAC alrededor de 2 millones de personas en Colombia sufre de discapacidad visual (ceguera). Estas personas son infravalorados o sobreprotegidos y muchas veces no tienen a alguien que los acompañe en el día a día haciendo más complicado poder salir a la calle, sobre todo si tenemos en cuenta los cruces viales.
                                 </p>
                             </div>
                             <div class="modal-footer align-items-center justify-content-center mt-2 mb-2">
-                                <a href="https://github.com/Tomas4512/AnyLanguage" style="text-decoration: none;" target="_blank-button">
-                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio</button>
+                                <a href="https://gabo0225.github.io/MAD-SAN/index.html" style="text-decoration: none;" target="_blank-button">
+                                    <button type="button"
+                                        class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i
+                                            class="bi bi-github"></i> Portafolio</button>
                                 </a>
                             </div>
                         </div>
@@ -165,37 +201,40 @@
                 </div>
             </div>
 
-            <!--Proyect 4-->
+            <!--Project 4-->
             <div class="col">
                 <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal4">
-                    <img src="assets/tds/s2/4.png" class="card-img-top" alt="">
+                    <img src="assets/tds/s1/4.png" class="card-img-top" alt="">
                     <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">Doce Digital</h5>
+                        <h5 class="card-title text-black">Cameriere</h5>
                     </div>
                     <div class="card-footer text-center g-1">
-                        <span class="badge text-bg-dark">Marketing</span>
-                        <span class="badge text-bg-dark">Negocios</span>
-                        <span class="badge text-bg-dark">Publicidad</span>
+                        <span class="badge text-bg-dark">Completo</span>
+                        <span class="badge text-bg-dark">Agendamiento</span>
+                        <span class="badge text-bg-dark">Comida</span>
                     </div>
                 </div>
                 <div class="modal" id="modal4">
                     <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
-                            <div class="modal-header bg bg-danger text-bg-danger">
-                                <h4 class="modal-title">Doce Digital</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="modal-header bg bg-dark text-bg-dark">
+                                <h4 class="modal-title">Cameriere</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 <div class="ratio ratio-16x9" id="youtube-container-modal4">
                                     
                                 </div>
                                 <p class="mt-3">
-                                    En nuestra empresa de marketing y publicidad, nos apasiona impulsar el éxito de los restaurantes de todos los estilos gastronómicos. Desde comida gourmet hasta sabores tradicionales, la idea es que todos nuestros usuarios encuentren opciones para su estilo de vida y gusto personal, estamos comprometidos a destacar la esencia única de cada establecimiento. Con estrategias innovadoras y creativas, ayudamos a nuestros clientes a destacarse en un mercado competitivo, captando la atención de nuevos clientes y fidelizando a los existentes. Ya sea a través de campañas en redes sociales o estrategias de marketing digital, estamos aquí para llevar la visión de nuestros restaurantes aliados a un siguiente nivel.
+                                    El objetivo general es ayudar a la organizacion de varios restaurantes. Que sea mas practico para el cliente pedir su orden y asi ayudar de paso a los disturbios que se generan
                                 </p>
                             </div>
-                            <div class="modal-footer align-items-center justify-content-center mt-5 mb-2">
-                                <a href="https://jdrodriguez037.github.io/12/" style="text-decoration: none;" target="_blank-button">
-                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio</button>
+                            <div class="modal-footer align-items-center justify-content-center mt-2 mb-2">
+                                <a href="https://noforero.github.io/Camariere/" style="text-decoration: none;" target="_blank-button">
+                                    <button type="button"
+                                        class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i
+                                            class="bi bi-github"></i> Portafolio</button>
                                 </a>
                             </div>
                         </div>
@@ -203,37 +242,40 @@
                 </div>
             </div>
 
-            <!--Proyect 5-->
+            <!--Project 5-->
             <div class="col">
                 <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal5">
-                    <img src="assets/tds/s2/5.png" class="card-img-top" alt="">
+                    <img src="assets/tds/s1/5.png" class="card-img-top" alt="">
                     <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">GreenSync</h5>
+                        <h5 class="card-title text-black">TruqueMarket</h5>
                     </div>
                     <div class="card-footer text-center g-1">
-                        <span class="badge text-bg-dark">Cuidado</span>
-                        <span class="badge text-bg-dark">Optimización</span>
-                        <span class="badge text-bg-dark">Plantas</span>
+                        <span class="badge text-bg-dark">Completo</span>
+                        <span class="badge text-bg-dark">Trueques</span>
+                        <span class="badge text-bg-dark">Mercado</span>
                     </div>
                 </div>
                 <div class="modal" id="modal5">
                     <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
-                            <div class="modal-header bg bg-success text-bg-success">
-                                <h4 class="modal-title">GreenSync</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="modal-header bg bg-dark text-bg-dark">
+                                <h4 class="modal-title">TruqueMarket</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 <div class="ratio ratio-16x9" id="youtube-container-modal5">
                                     
                                 </div>
                                 <p class="mt-3">
-                                    Un proyecto que combina tecnología avanzada con la pasión por el cultivo de plantas. Nuestro sistema automatizado de cultivo, respaldado por una aplicación móvil integrada, está diseñado para revolucionar la forma en que se cultivan y se cuidan las plantas de cannabis. Imagina un sistema inteligente que controla la iluminación, el riego y el monitoreo ambiental de tus plantas, todo desde la palma de tu mano.
+                                    Nuestro proyecto tiene como objetivo desarrollar una aplicación innvoadora que permita a los usuarios realizar trueques de conocimientos servicios y objetos. Esta herramienta promoverá el intercambio justo y directo, fomentando la creación de comunidades donde el conomiento y los recursos sean intercambiados libremente.
                                 </p>
                             </div>
-                            <div class="modal-footer align-items-center justify-content-center mt-5 mb-2">
-                                <a href="https://cristianmmst.github.io/GreenSync/" style="text-decoration: none;" target="_blank-button">
-                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio</button>
+                            <div class="modal-footer align-items-center justify-content-center mt-2 mb-2">
+                                <a href="https://brayan-fon.github.io/Trueque_Market/" style="text-decoration: none;" target="_blank-button">
+                                    <button type="button"
+                                        class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i
+                                            class="bi bi-github"></i> Portafolio</button>
                                 </a>
                             </div>
                         </div>
@@ -241,37 +283,45 @@
                 </div>
             </div>
 
-            <!--Proyect 6-->
+            <!--Project 6-->
             <div class="col">
                 <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal6">
-                    <img src="assets/tds/s2/6.png" class="card-img-top" alt="">
+                    <img src="assets/tds/s1/6.png" class="card-img-top" alt="">
                     <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">Focus Mind</h5>
+                        <h5 class="card-title text-black">FINANCE KIDS</h5>
                     </div>
                     <div class="card-footer text-center g-1">
-                        <span class="badge text-bg-dark">Asistencia</span>
-                        <span class="badge text-bg-dark">TDHA</span>
-                        <span class="badge text-bg-dark">Calidad de vida</span>
+                        <span class="badge text-bg-dark">Educación</span>
+                        <span class="badge text-bg-dark">Finanzas</span>
+                        <span class="badge text-bg-dark">Aprendizaje</span>
                     </div>
                 </div>
                 <div class="modal" id="modal6">
                     <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
-                            <div class="modal-header bg bg-danger text-bg-danger">
-                                <h4 class="modal-title">Focus Mind</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="modal-header bg bg-dark text-bg-dark">
+                                <h4 class="modal-title">FINANCE KIDS</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 <div class="ratio ratio-16x9" id="youtube-container-modal6">
                                     
                                 </div>
                                 <p class="mt-3">
-                                    Nuestra idea es desarrollar una aplicación destinada a asistir a individuos que padecen trastorno de TDHA con el propósito de relentizar la progresión de sus afecciones. Esta aplicación se enfocará en estructurar sus rutinas diarias para mitigar el impacto de dichas condiciones en aspectos significativos de su vida cotidiana, integrando también actividades interactivas de relajación.
+                                    La creación de un programa de finanzas para jóvenes, respaldado por una aplicación interactiva, podría proporcionar una alternativa innovadora para tratar la
+                                    carencia de educación financiera en este grupo de edad. Este marco teórico
+                                    proporciona el cimiento para investigar la factibilidad y eficacia de la propuesta,
+                                    favoreciendo la educación de jóvenes más conscientes y responsables en la
+                                    administración de sus recursos financieros.
+
                                 </p>
                             </div>
-                            <div class="modal-footer align-items-center justify-content-center mt-5 mb-2">
-                                <a href="https://jxvhyx.github.io/Focus_Mind/" style="text-decoration: none;" target="_blank-button">
-                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio</button>
+                            <div class="modal-footer align-items-center justify-content-center mt-2 mb-2">
+                                <a href="https://daniel12035546.github.io/Proyecto/" style="text-decoration: none;" target="_blank-button">
+                                    <button type="button"
+                                        class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i
+                                            class="bi bi-github"></i> Portafolio</button>
                                 </a>
                             </div>
                         </div>
@@ -279,37 +329,40 @@
                 </div>
             </div>
 
-            <!--Proyect 7-->
+            <!--Project 7-->
             <div class="col">
                 <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal7">
-                    <img src="assets/tds/s2/7.png" class="card-img-top" alt="">
+                    <img src="assets/tds/s1/7.png" class="card-img-top" alt="">
                     <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">Recovery Documents</h5>
+                        <h5 class="card-title text-black">Closet VR</h5>
                     </div>
                     <div class="card-footer text-center g-1">
-                        <span class="badge text-bg-dark">Documentos</span>
+                        <span class="badge text-bg-dark">Completo</span>
                         <span class="badge text-bg-dark">App</span>
-                        <span class="badge text-bg-dark">Recuperar</span>
+                        <span class="badge text-bg-dark">Armario Virtual</span>
                     </div>
                 </div>
                 <div class="modal" id="modal7">
                     <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
                             <div class="modal-header bg bg-dark text-bg-dark">
-                                <h4 class="modal-title">Recovery Documents</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <h4 class="modal-title">Closet VR</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 <div class="ratio ratio-16x9" id="youtube-container-modal7">
                                     
                                 </div>
                                 <p class="mt-3">
-                                    En un mundo donde la pérdida de documentos físicos es una preocupación constante, surge nuestra propuesta: una aplicación móvil diseñada para ofrecer una solución rápida y segura. Nuestra aplicación móvil permitirá a los usuarios registrar y recuperar documentos extraviados de manera eficiente, eliminando la necesidad de tediosos procesos y emisión de nuevos documentos. Con un enfoque en la participación comunitaria, buscamos crear una red de apoyo para aquellos que han experimentado la pérdida o robo de documentos personales.
+                                    Desarrollar "Closet VR", una aplicación de realidad aumentada que facilite la compra, planificación y selección de atuendos al permitir a los usuarios crear y gestionar un armario virtual, experimentar con combinaciones de ropa y accesorios en tiempo real, y recibir recomendaciones personalizadas, con el fin de ofrecer una experiencia de estilo más intuitiva y agradable.
                                 </p>
                             </div>
-                            <div class="modal-footer align-items-center justify-content-center mt-5 mb-2">
-                                <a href="https://juand08.github.io/RecoveryDocuments/" style="text-decoration: none;" target="_blank-button">
-                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio</button>
+                            <div class="modal-footer align-items-center justify-content-center mt-2 mb-2">
+                                <a href="https://avanessa94.github.io/CLOSETVR-/" style="text-decoration: none;" target="_blank-button">
+                                    <button type="button"
+                                        class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i
+                                            class="bi bi-github"></i> Portafolio</button>
                                 </a>
                             </div>
                         </div>
@@ -317,111 +370,44 @@
                 </div>
             </div>
 
-            <!--Proyect 8-->
+            <!--Project 8-->
             <div class="col">
                 <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal8">
-                    <img src="assets/tds/s2/8.png" class="card-img-top" alt="">
+                    <img src="assets/tds/s1/8.png" class="card-img-top" alt="">
                     <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">My Rig App</h5>
+                        <h5 class="card-title text-black">SPORTANET</h5>
                     </div>
                     <div class="card-footer text-center g-1">
-                        <span class="badge text-bg-dark">Facilidad</span>
-                        <span class="badge text-bg-dark">Archivos</span>
-                        <span class="badge text-bg-dark">Acceso</span>
+                        <span class="badge text-bg-dark">Completo</span>
+                        <span class="badge text-bg-dark">App</span>
+                        <span class="badge text-bg-dark">Deporte</span>
                     </div>
                 </div>
                 <div class="modal" id="modal8">
                     <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
                             <div class="modal-header bg bg-dark text-bg-dark">
-                                <h4 class="modal-title">My Rig App</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <h4 class="modal-title">SPORTANET</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 <div class="ratio ratio-16x9" id="youtube-container-modal8">
-                                    <p>El video se encuentra privado para el publico.</p>
-                                </div>
-                                <p class="mt-3">
-                                    Crear una aplicación móvil que permita acceder a los archivos almacenados en SharePoint para consulta y solución de problemas, instalación y funcionamiento de los equipos que ofrece la empresa.
-                                </p>
-                            </div>
-                            <div class="modal-footer align-items-center justify-content-center mt-5 mb-2">
-                                <a href="https://academiausbbogedu-my.sharepoint.com/:b:/g/personal/jsgutierrezg1_academia_usbbog_edu_co/EaGinTCULM9Gq4rUSr0sSO8BYKqPXomtXVk_rvwLF4u14g?e=sJ4axY" style="text-decoration: none;" target="_blank-button">
-                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--Proyect 9-->
-            <div class="col">
-                <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal9">
-                    <img src="assets/tds/s2/9.png" class="card-img-top" alt="">
-                    <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">Alimop</h5>
-                    </div>
-                    <div class="card-footer text-center g-1">
-                        <span class="badge text-bg-dark">Alimentación</span>
-                        <span class="badge text-bg-dark">Optimo</span>
-                        <span class="badge text-bg-dark">Saludable</span>
-                    </div>
-                </div>
-                <div class="modal" id="modal9">
-                    <div class="modal-dialog modal-dialog-centered modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header bg bg-primary text-bg-primary">
-                                <h4 class="modal-title">Alimop</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="ratio ratio-16x9" id="youtube-container-modal9">
                                     
                                 </div>
                                 <p class="mt-3">
-                                    Construir una herramienta (aplicación) que permita minimizar la pérdida de los alimentos, mediante el registro de ellos, desde el momento de su entrada a los almacenes, para conocer la fecha de su deterioro aproximado o caducidad, diseñada para empresas comercializadoras de alimento (restaurantes - puestos de comida).
-                                </p>
-                            </div>
-                            <div class="modal-footer align-items-center justify-content-center mt-5 mb-2">
-                                <a href="https://jdrodriguezy24.github.io/Proyecto-ALIMOP/" style="text-decoration: none;" target="_blank-button">
-                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                                    En los últimos años, el deporte ha crecido en importancia dentro de nuestra sociedad, convirtiéndose en un estilo de vida saludable. Sin embargo, el sedentarismo ha aumentado debido a las nuevas tecnologías, lo que ha llevado a un incremento de enfermedades crónicas.
 
-            <!--Proyect 10-->
-            <div class="col">
-                <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal10">
-                    <img src="assets/tds/s2/error.png" class="card-img-top" alt="">
-                    <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">MY RIG</h5>
-                    </div>
-                    <div class="card-footer text-center g-1">
-                        <span class="badge text-bg-danger">Incompleto</span>
-                    </div>
-                </div>
-                <div class="modal" id="modal10">
-                    <div class="modal-dialog modal-dialog-centered modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header bg bg-primary text-bg-primary">
-                                <h4 class="modal-title">MY RIG</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="ratio ratio-16x9" id="youtube-container-modal10">
-                                    
-                                </div>
-                                <p class="mt-3">
-                                    No se proporcionó un video y un repositorio coherente a lo requerido.
+                                    El deporte se integra como una necesidad vital para el crecimiento humano, promoviendo hábitos saludables y el uso adecuado del tiempo libre. Necesitamos más espacios deportivos accesibles para todos, ya que la promoción de estos eventos enfrenta grandes desafíos.
+
+                                    Nuestro proyecto busca incorporar herramientas tecnológicas que potencien los eventos deportivos, facilitando su promoción y acceso. Con una plataforma virtual, los usuarios podrán encontrar y participar en eventos de manera sencilla y efectiva.
                                 </p>
                             </div>
-                            <div class="modal-footer align-items-center justify-content-center mt-5 mb-2">
-                                <a href="https://github.com/gut-07/MyRigApp" style="text-decoration: none;" target="_blank-button">
-                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio</button>
+                            <div class="modal-footer align-items-center justify-content-center mt-2 mb-2">
+                                <a href="https://juherles.github.io/Sportanet/" style="text-decoration: none;" target="_blank-button">
+                                    <button type="button"
+                                        class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i
+                                            class="bi bi-github"></i> Portafolio</button>
                                 </a>
                             </div>
                         </div>
@@ -431,6 +417,8 @@
 
         </div>
     </section>
+
+    <!--Footer-->
     <footer class="mt-5 py-5 bg-dark">
         <div class="container">
             <p class="mb-5 text-center text-white">Copyright &copy; USBBOG 2023</p>

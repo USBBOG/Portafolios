@@ -10,9 +10,10 @@
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!--Bootstrap-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+
 </head>
 
 <body>
@@ -20,29 +21,17 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="index.html"><img src="assets/pit-white.png" alt="Logo pit" width="110"
-                    height="110" /></a>
+                    height="110"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" id="inactive" href="index.html">INICIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="inactive" href="tai.html">TAI</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" id="active" href="tds.html">TDS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="inactive" href="rubricas.html">RÚBRICAS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="inactive" href="historial.html">HISTORIAL</a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link" id="inactive" href="index.html">INICIO</a></li>
+                    <li class="nav-item"><a class="nav-link" id="inactive" href="tai.html">TAI</a></li>
+                    <li class="nav-item"><a class="nav-link active" id="active" href="tds.html">TDS</a></li>
+                    <li class="nav-item"><a class="nav-link" id="inactive" href="rubricas.html">RÚBRICAS</a></li>
+                    <li class="nav-item"><a class="nav-link" id="inactive" href="historial.html">HISTORIAL</a></li>
                 </ul>
             </div>
         </div>
@@ -62,47 +51,76 @@
         </div>
         <!-- Proyects -->
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-3">
+
+            <!--Proyect 1-->
+            <div class="col">
+                <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal1">
+                    <img src="assets/tds/s2/1.png" class="card-img-top" alt="">
+                    <div class="card-body text-center shadow-sm">
+                        <h5 class="card-title text-black">ArtByte Technology</h5>
+                    </div>
+                    <div class="card-footer text-center g-1">
+                        <span class="badge text-bg-dark">Completo</span>
+                        <span class="badge text-bg-dark">Innovación</span>
+                        <span class="badge text-bg-dark">Creativo</span>
+                    </div>
+                </div>
+                <div class="modal" id="modal1">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header bg bg-success text-bg-success">
+                                <h4 class="modal-title">ArtByte Technology</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="ratio ratio-16x9" id="youtube-container-modal1">
+                                
+                                </div>
+                                <p class="mt-3">
+                                    El proyecto "Art Byte" pretende desarrollar una máquina autónoma para tatuar letras en el antebrazo. Se busca mejorar la precisión y eficiencia del proceso, empleando tecnología moderna. Se plantea el desarrollo de una aplicación que interactue con la maquina.
+                                </p>
+                            </div>
+                            <div class="modal-footer align-items-center justify-content-center mt-2 mb-2">
+                                <a href="https://artbyte4.github.io/artbyte-technology/" style="text-decoration: none;" target="_blank-button">
+                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!--Proyect 2-->
             <div class="col">
                 <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal2">
-                    <img src="assets/tds/s3/2.png" class="card-img-top" alt="" />
+                    <img src="assets/tds/s2/2.png" class="card-img-top" alt="">
                     <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">RPM</h5>
+                        <h5 class="card-title text-black">GAIT</h5>
                     </div>
                     <div class="card-footer text-center g-1">
-                        <span class="badge text-bg-dark">Seguridad</span>
-                        <span class="badge text-bg-dark">Compra & Venta</span>
-                        <span class="badge text-bg-dark">Agíl</span>
+                        <span class="badge text-bg-dark">Simplicidad</span>
+                        <span class="badge text-bg-dark">Optimización</span>
+                        <span class="badge text-bg-dark">Distribución</span>
                     </div>
                 </div>
                 <div class="modal" id="modal2">
                     <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
                             <div class="modal-header bg bg-dark text-bg-dark">
-                                <h4 class="modal-title">RPM</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
+                                <h4 class="modal-title">GAIT</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 <div class="ratio ratio-16x9" id="youtube-container-modal2">
                                     
                                 </div>
                                 <p class="mt-3">
-                                    Nuestro proyecto tiene como objetivo ofrecer servicios de
-                                    compra y venta confiables y seguros tanto para usuarios como
-                                    para aliados comerciales, con un servicio de entrega ágil y
-                                    eficiente. Además, proporcionaremos un mapa que permitirá a
-                                    los usuarios visualizar los diversos talleres, montallantas
-                                    y tiendas de accesorios cercanos a su ubicación.
+                                    El proyecto se plantea el desarrollo de una plataforma web que pueda utilizar los clientes para optimizar el canal de distribucion directo entre la compañia y sus distribuidores a nivel nacional.
                                 </p>
                             </div>
                             <div class="modal-footer align-items-center justify-content-center mt-2 mb-2">
-                                <a href="https://rpm-one.vercel.app/" style="text-decoration: none"
-                                    target="_blank-button">
-                                    <button type="button"
-                                        class="btn btn-lg bg bg-dark text-white border border-color-none rounded">
-                                        <i class="bi bi-github"></i> Portafolio
-                                    </button>
+                                <a href="https://sosasebastian.github.io/GAIT/" style="text-decoration: none;" target="_blank-button">
+                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio</button>
                                 </a>
                             </div>
                         </div>
@@ -113,53 +131,33 @@
             <!--Proyect 3-->
             <div class="col">
                 <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal3">
-                    <img src="assets/tds/s3/3.png" class="card-img-top" alt="" />
+                    <img src="assets/tds/s2/3.png" class="card-img-top" alt="">
                     <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">MODAVA</h5>
+                        <h5 class="card-title text-black">AnyLanguage</h5>
                     </div>
                     <div class="card-footer text-center g-1">
-                        <span class="badge text-bg-dark">Belleza</span>
-                        <span class="badge text-bg-dark">Servicios</span>
-                        <span class="badge text-bg-dark">Software</span>
+                        <span class="badge text-bg-danger">Incompleto</span>
+                        <span class="badge text-bg-dark">Inclución</span>
                     </div>
                 </div>
                 <div class="modal" id="modal3">
                     <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
                             <div class="modal-header bg bg-dark text-bg-dark">
-                                <h4 class="modal-title">MODAVA</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
+                                <h4 class="modal-title">AnyLanguage</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 <div class="ratio ratio-16x9" id="youtube-container-modal3">
                                     
                                 </div>
                                 <p class="mt-3">
-                                    Este proyecto presenta el desarrollo de un software
-                                    innovador diseñado para revolucionar la gestión de citas en
-                                    la industria de servicios estéticos, con un enfoque en
-                                    empresas de manicura y servicios similares.
-                                    <br /><br />
-                                    Además de facilitar la programación de citas, el software
-                                    permite la asignación adecuada de especialistas en áreas
-                                    específicas, maximizando la utilización de recursos y
-                                    mejorando la satisfacción del cliente. Por consiguiente su
-                                    habilidad para agendar citas, el software también
-                                    proporciona la capacidad de generar informes detallados
-                                    sobre ingresos y ocupación. Estos informes brindan a las
-                                    empresas herramientas analíticas esenciales para la toma de
-                                    decisiones informadas y la mejora de su funcionamiento
-                                    general.
+                                    AnyLanguage es un proyecto llevado a cabo para la realización de un aplicativo de enseñanza del ingles a niños en un rango de 5 a los 12 años de edad, implementando diferentes tecnologias y multimedia. De este modo llegando a una plataforma mucho más dinámica y simplificada.
                                 </p>
                             </div>
                             <div class="modal-footer align-items-center justify-content-center mt-2 mb-2">
-                                <a href="https://monica3daza0307.github.io/MODAVA1.0/" style="text-decoration: none"
-                                    target="_blank-button">
-                                    <button type="button"
-                                        class="btn btn-lg bg bg-dark text-white border border-color-none rounded">
-                                        <i class="bi bi-github"></i> Portafolio
-                                    </button>
+                                <a href="https://github.com/Tomas4512/AnyLanguage" style="text-decoration: none;" target="_blank-button">
+                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio</button>
                                 </a>
                             </div>
                         </div>
@@ -170,50 +168,34 @@
             <!--Proyect 4-->
             <div class="col">
                 <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal4">
-                    <img src="assets/tds/s3/4.png" class="card-img-top" alt="" />
+                    <img src="assets/tds/s2/4.png" class="card-img-top" alt="">
                     <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">InterAgro</h5>
+                        <h5 class="card-title text-black">Doce Digital</h5>
                     </div>
                     <div class="card-footer text-center g-1">
-                        <span class="badge text-bg-dark">Mediador</span>
-                        <span class="badge text-bg-dark">Agricultura</span>
-                        <span class="badge text-bg-dark">Comercio</span>
+                        <span class="badge text-bg-dark">Marketing</span>
+                        <span class="badge text-bg-dark">Negocios</span>
+                        <span class="badge text-bg-dark">Publicidad</span>
                     </div>
                 </div>
                 <div class="modal" id="modal4">
                     <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
-                            <div class="modal-header bg bg-dark text-bg-dark">
-                                <h4 class="modal-title">InterAgro</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
+                            <div class="modal-header bg bg-danger text-bg-danger">
+                                <h4 class="modal-title">Doce Digital</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 <div class="ratio ratio-16x9" id="youtube-container-modal4">
                                     
                                 </div>
                                 <p class="mt-3">
-                                    El objetivo principal de nuestro programa es establecer una
-                                    plataforma digital que facilite la comunicación efectiva
-                                    entre los campesinos y los compradores, con el propósito de
-                                    mejorar la comercialización de los productos del campesino.
-                                    A través de esta plataforma buscamos brindar a los
-                                    campesinos una herramienta que les permita comerciar sus
-                                    productos de una manera eficiente, al tiempo que brindamos a
-                                    los compradores acceso directo a los campesinos, ofreciendo
-                                    ventas seguras y confiables sin intermediarios. Nuestro
-                                    objetivo es reducir las barreras tradicionales en las ventas
-                                    de productos del agro colombiano, fomentando así la relación
-                                    entre campesinos y compradores.
+                                    En nuestra empresa de marketing y publicidad, nos apasiona impulsar el éxito de los restaurantes de todos los estilos gastronómicos. Desde comida gourmet hasta sabores tradicionales, la idea es que todos nuestros usuarios encuentren opciones para su estilo de vida y gusto personal, estamos comprometidos a destacar la esencia única de cada establecimiento. Con estrategias innovadoras y creativas, ayudamos a nuestros clientes a destacarse en un mercado competitivo, captando la atención de nuevos clientes y fidelizando a los existentes. Ya sea a través de campañas en redes sociales o estrategias de marketing digital, estamos aquí para llevar la visión de nuestros restaurantes aliados a un siguiente nivel.
                                 </p>
                             </div>
-                            <div class="modal-footer align-items-center justify-content-center mt-2 mb-2">
-                                <a href="https://interagro-kgtd.vercel.app/index.html" style="text-decoration: none"
-                                    target="_blank-button">
-                                    <button type="button"
-                                        class="btn btn-lg bg bg-dark text-white border border-color-none rounded">
-                                        <i class="bi bi-github"></i> Portafolio
-                                    </button>
+                            <div class="modal-footer align-items-center justify-content-center mt-5 mb-2">
+                                <a href="https://jdrodriguez037.github.io/12/" style="text-decoration: none;" target="_blank-button">
+                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio</button>
                                 </a>
                             </div>
                         </div>
@@ -224,44 +206,34 @@
             <!--Proyect 5-->
             <div class="col">
                 <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal5">
-                    <img src="assets/tds/s3/5.png" class="card-img-top" alt="" />
+                    <img src="assets/tds/s2/5.png" class="card-img-top" alt="">
                     <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">ArcData</h5>
+                        <h5 class="card-title text-black">GreenSync</h5>
                     </div>
                     <div class="card-footer text-center g-1">
-                        <span class="badge text-bg-dark">Gestión</span>
-                        <span class="badge text-bg-dark">Rapidez</span>
-                        <span class="badge text-bg-dark">Ips</span>
+                        <span class="badge text-bg-dark">Cuidado</span>
+                        <span class="badge text-bg-dark">Optimización</span>
+                        <span class="badge text-bg-dark">Plantas</span>
                     </div>
                 </div>
                 <div class="modal" id="modal5">
                     <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
-                            <div class="modal-header bg bg-dark text-bg-dark">
-                                <h4 class="modal-title">ArcData</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
+                            <div class="modal-header bg bg-success text-bg-success">
+                                <h4 class="modal-title">GreenSync</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 <div class="ratio ratio-16x9" id="youtube-container-modal5">
                                     
                                 </div>
                                 <p class="mt-3">
-                                    Somos un equipo dedicado a transformar la atención médica.
-                                    Nuestro aplicativo web, diseñado para esta IPS, agiliza la
-                                    gestión de pacientes y facilita el acceso a información
-                                    crucial. Con una interfaz intuitiva y herramientas
-                                    personalizables, estamos seguros de que mejorará la calidad
-                                    de nuestros servicios.
+                                    Un proyecto que combina tecnología avanzada con la pasión por el cultivo de plantas. Nuestro sistema automatizado de cultivo, respaldado por una aplicación móvil integrada, está diseñado para revolucionar la forma en que se cultivan y se cuidan las plantas de cannabis. Imagina un sistema inteligente que controla la iluminación, el riego y el monitoreo ambiental de tus plantas, todo desde la palma de tu mano.
                                 </p>
                             </div>
-                            <div class="modal-footer align-items-center justify-content-center mt-2 mb-2">
-                                <a href="https://arc-data.vercel.app/" style="text-decoration: none"
-                                    target="_blank-button">
-                                    <button type="button"
-                                        class="btn btn-lg bg bg-dark text-white border border-color-none rounded">
-                                        <i class="bi bi-github"></i> Portafolio
-                                    </button>
+                            <div class="modal-footer align-items-center justify-content-center mt-5 mb-2">
+                                <a href="https://cristianmmst.github.io/GreenSync/" style="text-decoration: none;" target="_blank-button">
+                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio</button>
                                 </a>
                             </div>
                         </div>
@@ -272,47 +244,72 @@
             <!--Proyect 6-->
             <div class="col">
                 <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal6">
-                    <img src="assets/tds/s3/6.png" class="card-img-top" alt="" />
+                    <img src="assets/tds/s2/6.png" class="card-img-top" alt="">
                     <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">TINCAR</h5>
+                        <h5 class="card-title text-black">Focus Mind</h5>
                     </div>
                     <div class="card-footer text-center g-1">
-                        <span class="badge text-bg-dark">Inseguridad</span>
-                        <span class="badge text-bg-dark">Congestión</span>
-                        <span class="badge text-bg-dark">Parqueadero</span>
+                        <span class="badge text-bg-dark">Asistencia</span>
+                        <span class="badge text-bg-dark">TDHA</span>
+                        <span class="badge text-bg-dark">Calidad de vida</span>
                     </div>
                 </div>
                 <div class="modal" id="modal6">
                     <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
-                            <div class="modal-header bg bg-warning text-bg-warning">
-                                <h4 class="modal-title">TINCAR</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
+                            <div class="modal-header bg bg-danger text-bg-danger">
+                                <h4 class="modal-title">Focus Mind</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 <div class="ratio ratio-16x9" id="youtube-container-modal6">
                                     
                                 </div>
                                 <p class="mt-3">
-                                    Implementar una herramienta de software que permita mejorar
-                                    el mal uso del espacio público evidenciado en las
-                                    principales ciudades del país donde se propone hacer uso de
-                                    los parqueaderos personales por parte de conductores que
-                                    generen la necesidad de parquear por un periodo de tiempo
-                                    determinado y generar un beneficio económico a quien alquile
-                                    su parqueadero. Asimismo, la creación de este software
-                                    pretende disminuir la inseguridad y congestión vehicular por
-                                    el mal parqueo en zonas prohibidas.
+                                    Nuestra idea es desarrollar una aplicación destinada a asistir a individuos que padecen trastorno de TDHA con el propósito de relentizar la progresión de sus afecciones. Esta aplicación se enfocará en estructurar sus rutinas diarias para mitigar el impacto de dichas condiciones en aspectos significativos de su vida cotidiana, integrando también actividades interactivas de relajación.
                                 </p>
                             </div>
-                            <div class="modal-footer align-items-center justify-content-center mt-2 mb-2">
-                                <a href="https://kaparepennn.github.io/ProyectoTinCar/" style="text-decoration: none"
-                                    target="_blank-button">
-                                    <button type="button"
-                                        class="btn btn-lg bg bg-dark text-white border border-color-none rounded">
-                                        <i class="bi bi-github"></i> Portafolio
-                                    </button>
+                            <div class="modal-footer align-items-center justify-content-center mt-5 mb-2">
+                                <a href="https://jxvhyx.github.io/Focus_Mind/" style="text-decoration: none;" target="_blank-button">
+                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Proyect 7-->
+            <div class="col">
+                <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal7">
+                    <img src="assets/tds/s2/7.png" class="card-img-top" alt="">
+                    <div class="card-body text-center shadow-sm">
+                        <h5 class="card-title text-black">Recovery Documents</h5>
+                    </div>
+                    <div class="card-footer text-center g-1">
+                        <span class="badge text-bg-dark">Documentos</span>
+                        <span class="badge text-bg-dark">App</span>
+                        <span class="badge text-bg-dark">Recuperar</span>
+                    </div>
+                </div>
+                <div class="modal" id="modal7">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header bg bg-dark text-bg-dark">
+                                <h4 class="modal-title">Recovery Documents</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="ratio ratio-16x9" id="youtube-container-modal7">
+                                    
+                                </div>
+                                <p class="mt-3">
+                                    En un mundo donde la pérdida de documentos físicos es una preocupación constante, surge nuestra propuesta: una aplicación móvil diseñada para ofrecer una solución rápida y segura. Nuestra aplicación móvil permitirá a los usuarios registrar y recuperar documentos extraviados de manera eficiente, eliminando la necesidad de tediosos procesos y emisión de nuevos documentos. Con un enfoque en la participación comunitaria, buscamos crear una red de apoyo para aquellos que han experimentado la pérdida o robo de documentos personales.
+                                </p>
+                            </div>
+                            <div class="modal-footer align-items-center justify-content-center mt-5 mb-2">
+                                <a href="https://juand08.github.io/RecoveryDocuments/" style="text-decoration: none;" target="_blank-button">
+                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio</button>
                                 </a>
                             </div>
                         </div>
@@ -323,41 +320,34 @@
             <!--Proyect 8-->
             <div class="col">
                 <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal8">
-                    <img src="assets/tds/s3/8.png" class="card-img-top" alt="" />
+                    <img src="assets/tds/s2/8.png" class="card-img-top" alt="">
                     <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">UDOSURVEY</h5>
+                        <h5 class="card-title text-black">My Rig App</h5>
                     </div>
                     <div class="card-footer text-center g-1">
-                        <span class="badge text-bg-dark">Encuestas</span>
-                        <span class="badge text-bg-dark">Privacidad</span>
-                        <span class="badge text-bg-dark">Accesibilidad</span>
+                        <span class="badge text-bg-dark">Facilidad</span>
+                        <span class="badge text-bg-dark">Archivos</span>
+                        <span class="badge text-bg-dark">Acceso</span>
                     </div>
                 </div>
                 <div class="modal" id="modal8">
                     <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
-                            <div class="modal-header bg bg-success text-bg-success">
-                                <h4 class="modal-title">UDOSURVEY</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
+                            <div class="modal-header bg bg-dark text-bg-dark">
+                                <h4 class="modal-title">My Rig App</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 <div class="ratio ratio-16x9" id="youtube-container-modal8">
-                                    
+                                    <p>El video se encuentra privado para el publico.</p>
                                 </div>
                                 <p class="mt-3">
-                                    Desarrollar una aplicación que permita tabular información
-                                    veraz, ágil y confiable, detectando incongruencias, falsedad
-                                    y duplicidad de la información recopilada.
+                                    Crear una aplicación móvil que permita acceder a los archivos almacenados en SharePoint para consulta y solución de problemas, instalación y funcionamiento de los equipos que ofrece la empresa.
                                 </p>
                             </div>
-                            <div class="modal-footer align-items-center justify-content-center mt-2 mb-2">
-                                <a href="https://prezi.com/p/kuim8gcenup3/udosurvey/" style="text-decoration: none"
-                                    target="_blank-button">
-                                    <button type="button"
-                                        class="btn btn-lg bg bg-dark text-white border border-color-none rounded">
-                                        <i class="bi bi-github"></i> Portafolio
-                                    </button>
+                            <div class="modal-footer align-items-center justify-content-center mt-5 mb-2">
+                                <a href="https://academiausbbogedu-my.sharepoint.com/:b:/g/personal/jsgutierrezg1_academia_usbbog_edu_co/EaGinTCULM9Gq4rUSr0sSO8BYKqPXomtXVk_rvwLF4u14g?e=sJ4axY" style="text-decoration: none;" target="_blank-button">
+                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio</button>
                                 </a>
                             </div>
                         </div>
@@ -368,55 +358,34 @@
             <!--Proyect 9-->
             <div class="col">
                 <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal9">
-                    <img src="assets/tds/s3/9.png" class="card-img-top" alt="" />
+                    <img src="assets/tds/s2/9.png" class="card-img-top" alt="">
                     <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">EASY TURN R'V</h5>
+                        <h5 class="card-title text-black">Alimop</h5>
                     </div>
                     <div class="card-footer text-center g-1">
-                        <span class="badge text-bg-dark"></span>
-                        <span class="badge text-bg-dark"></span>
-                        <span class="badge text-bg-dark">Incompleto</span>
+                        <span class="badge text-bg-dark">Alimentación</span>
+                        <span class="badge text-bg-dark">Optimo</span>
+                        <span class="badge text-bg-dark">Saludable</span>
                     </div>
                 </div>
                 <div class="modal" id="modal9">
                     <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
-                            <div class="modal-header bg bg-secondary text-bg-secondary">
-                                <h4 class="modal-title">EASY TURN R'V</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
+                            <div class="modal-header bg bg-primary text-bg-primary">
+                                <h4 class="modal-title">Alimop</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 <div class="ratio ratio-16x9" id="youtube-container-modal9">
-                                    <p>El link del video no se encuentra disponible.</p>
+                                    
                                 </div>
                                 <p class="mt-3">
-                                    Se tiene como objetivo crear una aplicacion que brindarà un
-                                    servicio a todos los clientes de los bancos pero tendra una
-                                    preferencia hacia algunos grupos vulnerables de la poblacion
-                                    como lo son las personas de la tercera edad, personas con
-                                    discapacidad y mujeres gestantes. Esta aplicacion servirà
-                                    para sacar turnos a la hora de requerir de algun servicio
-                                    del banco de manera presencial, una de las funciones de esta
-                                    aplicacion es avisarles a los usuarios dentro de un rango de
-                                    15 minutos que ya es hora de acercarse al banco porque se
-                                    aproxima su turno, asì ellos podran gestionar algunas otras
-                                    tareas pendientes (si las tienen), mientras esperan su turno
-                                    en el banco y no tener que estar siempre esperando y
-                                    perdiendo tiempo en el banco. otras de las funciones que
-                                    tendrà esta aplicacion sera el poder visualizar la
-                                    informacion en tiempo real de los servicios disponibles y
-                                    los tramites que se pueden realizar en ese momento sin
-                                    necesidad de acercarse a la entidad bancaria
+                                    Construir una herramienta (aplicación) que permita minimizar la pérdida de los alimentos, mediante el registro de ellos, desde el momento de su entrada a los almacenes, para conocer la fecha de su deterioro aproximado o caducidad, diseñada para empresas comercializadoras de alimento (restaurantes - puestos de comida).
                                 </p>
                             </div>
-                            <div class="modal-footer align-items-center justify-content-center mt-2 mb-2">
-                                <a href="https://easy-turn-v-r.vercel.app/" style="text-decoration: none"
-                                    target="_blank-button">
-                                    <button type="button"
-                                        class="btn btn-lg bg bg-dark text-white border border-color-none rounded">
-                                        <i class="bi bi-github"></i> Portafolio
-                                    </button>
+                            <div class="modal-footer align-items-center justify-content-center mt-5 mb-2">
+                                <a href="https://jdrodriguezy24.github.io/Proyecto-ALIMOP/" style="text-decoration: none;" target="_blank-button">
+                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio</button>
                                 </a>
                             </div>
                         </div>
@@ -427,54 +396,41 @@
             <!--Proyect 10-->
             <div class="col">
                 <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal10">
-                    <img src="assets/tds/s3/10.png" class="card-img-top" alt="" />
+                    <img src="assets/tds/s2/error.png" class="card-img-top" alt="">
                     <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">Boss Budget</h5>
+                        <h5 class="card-title text-black">MY RIG</h5>
                     </div>
                     <div class="card-footer text-center g-1">
-                        <span class="badge text-bg-dark">Financiero</span>
-                        <span class="badge text-bg-dark">App</span>
-                        <span class="badge text-bg-dark">Completo</span>
+                        <span class="badge text-bg-danger">Incompleto</span>
                     </div>
                 </div>
                 <div class="modal" id="modal10">
                     <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
-                            <div class="modal-header bg bg-secondary text-bg-secondary">
-                                <h4 class="modal-title">Boss Budget</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
+                            <div class="modal-header bg bg-primary text-bg-primary">
+                                <h4 class="modal-title">MY RIG</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
                                 <div class="ratio ratio-16x9" id="youtube-container-modal10">
                                     
                                 </div>
                                 <p class="mt-3">
-                                    Boos Budget será una Aplicación móvil y web que se podrá
-                                    manejar desde distintos dispositivos electrónicos, la cual
-                                    busca mejorar los hábitos y las finanzas de las personas que
-                                    la utilicen, ofreciendo múltiples funcionalidades,
-                                    convirtiéndola en una aplicación demasiado intuitiva y
-                                    sencilla de manejar.
+                                    No se proporcionó un video y un repositorio coherente a lo requerido.
                                 </p>
                             </div>
-                            <div class="modal-footer align-items-center justify-content-center mt-2 mb-2">
-                                <a href="https://brayanslopez.github.io/BOOS-BUDGET/" style="text-decoration: none"
-                                    target="_blank-button">
-                                    <button type="button"
-                                        class="btn btn-lg bg bg-dark text-white border border-color-none rounded">
-                                        <i class="bi bi-github"></i> Portafolio
-                                    </button>
+                            <div class="modal-footer align-items-center justify-content-center mt-5 mb-2">
+                                <a href="https://github.com/gut-07/MyRigApp" style="text-decoration: none;" target="_blank-button">
+                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio</button>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
-
-    <!--Footer-->
     <footer class="mt-5 py-5 bg-dark">
         <div class="container">
             <p class="mb-5 text-center text-white">Copyright &copy; USBBOG 2023</p>
@@ -484,7 +440,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-    <!-- JavaScript for Models -->
+    <!-- JavaScript for Modals-->
     <script src="js/modal-tds.js"></script>
 </body>
 
