@@ -1,6 +1,13 @@
 document.addEventListener("DOMContentLoaded", function(){
     const youtubeModals = [
         { // { TAI 1 }
+            modal1: "https://www.youtube.com/embed/MfwYlQQjJIg?si=niAF5a9CgvrmGUR7",
+            modal2: "https://www.youtube.com/embed/my4IZRjGOqo?si=DU1SgZ6htwLpeuac",
+            modal3: "https://www.youtube.com/embed/FYglrXkDCNE?si=ArnwDa56jAxPyZ1i",
+            modal4: "https://www.youtube.com/embed/2ReQi94IgCA?si=HMGMi_FrBu8uk-fM",
+            modal5: "https://www.youtube.com/embed/DtEmYCIBABs?si=DBLhzQMnk8DOeh45"
+        },
+        { // { TAI 2 }
             modal1: "https://www.youtube.com/embed/Qw_1CxXm6ZY?si=0rU0PsHK64Z5LFyU",
             modal2: "https://www.youtube.com/embed/sP1Fe2KoTCI?si=ccg6sqiHo4guJ_SW",
             modal3: "https://www.youtube.com/embed/Uorg1Z-CCTM?si=-dgQRKbO8MxPIvw9",
@@ -8,27 +15,29 @@ document.addEventListener("DOMContentLoaded", function(){
             modal5: "https://www.youtube.com/embed/O_4NrYCWL_Q?si=Lpim07KV_Zg6dFdm",
             modal6: "https://www.youtube.com/embed/3JvkqC3mMDg?si=QzhTAulld2nKv6N8"
         },
-        { // { TAI 2 }
+        { // { TAI 3 }
+
             modal1: "https://www.youtube.com/embed/1FvusBCVfvs?si=uUjjKrg4iTkrcLpG",
             modal2: "https://www.youtube.com/embed/22q6pZJb5KE?si=qBCR02LxGOcj7d3j",
             modal3: "https://drive.google.com/file/d/10DS63ysPgO_XMaO0jsqdMobsIB4IzBag/preview",
             modal4: "https://www.youtube.com/embed/hHfB8FRM_fo?si=rldn0WnBl7t8zCR2",
             modal5: "https://www.youtube.com/embed/8t41IBHIpXo?si=JSse_9UYXLRYEKm5",
             modal6: "https://www.youtube.com/embed/9l2pWynFar8?si=Me8o8B_UZU06FU8P"
+            
         },
-        { // { TAI 3 }
+        { // { TAI 4 }
             modal1: "https://www.youtube.com/embed/XjF6AMd-RJw?si=YCohWLpGIYP9LjrP",
             modal2: "https://www.youtube.com/embed/5K_6LHrPRVk?si=I_lMSUl83cmi0WXB",
             modal3: "https://www.youtube.com/embed/sPXcqsjQpJo?si=rVzGD9ttsrQMde5j"
-        },
-        { // { TAI 4 }
-            modal1: "https://www.youtube.com/embed/z3laB54ggFk?si=RlG-WYKVBS28elYC"
+            
         },
         { // { TAI 5 }
-            modal1: "https://academiausbbogedu-my.sharepoint.com/personal/lcmarquezs_academia_usbbog_edu_co/_layouts/15/embed.aspx?UniqueId=77840d7c-9dfd-488d-b1c1-49a7e87c0ce9&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
-            modal2: "https://www.youtube.com/embed/ASJ6wSzMdZY?si=DrMNP5E0cJw8aCY1"
+            modal1: "https://www.youtube.com/embed/z3laB54ggFk?si=RlG-WYKVBS28elYC"
+            
         },
         { // { TAI 6 }
+            modal1: "https://academiausbbogedu-my.sharepoint.com/personal/lcmarquezs_academia_usbbog_edu_co/_layouts/15/embed.aspx?UniqueId=77840d7c-9dfd-488d-b1c1-49a7e87c0ce9&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create",
+            modal2: "https://www.youtube.com/embed/ASJ6wSzMdZY?si=DrMNP5E0cJw8aCY1"
             
         }
     ];

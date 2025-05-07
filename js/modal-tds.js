@@ -11,6 +11,17 @@ document.addEventListener("DOMContentLoaded", function(){
             modal8: "https://drive.google.com/file/d/1mhGm3kUDYMLiZyLqkEGNQcnEcWmzCtTr/preview"
         },
         { // { TDS 2 }
+            modal1: "https://www.youtube.com/embed/X0zKQ14ZwGI?si=7T1p_UV10sRFZ1xo",
+            modal2: "https://www.youtube.com/embed/cdjT2CsyBh0?si=xOEhneg1omTCBJRJ",
+            modal3: "https://www.youtube.com/embed/Qw_1CxXm6ZY?si=0rU0PsHK64Z5LFyU",
+            modal4: "https://www.youtube.com/embed/O_4NrYCWL_Q?si=Lpim07KV_Zg6dFdm",
+            modal5: "https://www.youtube.com/embed/WbGbmGW45U0?si=PqtcdsHPrMNsLY9q",
+            modal6: "https://www.youtube.com/embed/_k9zKF6v8YA?si=3hQuVkLOd7eSMwtk",
+            modal7: "https://www.youtube.com/embed/NM0dxXqlv74?si=cc8CU4cb--qwlN5u",
+            modal8: "https://drive.google.com/file/d/1mhGm3kUDYMLiZyLqkEGNQcnEcWmzCtTr/preview"
+
+        },
+        { // { TDS 3 }
             modal1: "https://www.youtube.com/embed/22q6pZJb5KE?si=_98Ez6cX-9gxZ2Z_",
             modal2: "https://drive.google.com/file/d/15E8zK_nxFCN8tlNhy5A_Got4_5d4blH1/preview",
             modal3: "https://www.youtube.com/embed/1Q58XUVZ6YE?si=ef-zdhrm5BqByIVi",
@@ -21,8 +32,9 @@ document.addEventListener("DOMContentLoaded", function(){
             modal8: "",
             modal9: "https://www.youtube.com/embed/yhOYRzjH2iI?si=tyzM6ShykDDt0-N7",
             modal10: ""
+
         },
-        { // { TDS 3 }
+        { // { TDS 4 }
             modal2: "https://drive.google.com/file/d/1CHL9VhSqImUDoKC68ePeV9jYQDJAYAtR/preview",
             modal3: "https://drive.google.com/file/d/1D90zGrHyGeGSyvW_3wvYl6y_qQkYaPLq/preview",
             modal4: "https://www.youtube.com/embed/pduw3PlFMDI?si=KN34XPA8vel64yul",
@@ -31,8 +43,9 @@ document.addEventListener("DOMContentLoaded", function(){
             modal8: "https://drive.google.com/file/d/1nY690owX_dgwABDyIGGYX27l0yBKXoki/preview",
             modal9: "",
             modal10: "https://www.youtube.com/embed/AnS2guMmKh8?si=nVcnrftPFV-tZFqu"
+           
         },
-        { // { TDS 4 }
+        { // { TDS 5 }
             modal1: "https://www.youtube.com/embed/jbhPwyKNMsQ?si=hB7pzcCkzrtzJoV",
             modal2: "https://www.youtube.com/embed/JFzOy9EiQww?si=HmJ7pXx6Hn3L1uZs",
             modal3: "https://www.youtube.com/embed/qeKz-i_E3u4?si=QPXAribHpCIdl-jz",
@@ -43,26 +56,13 @@ document.addEventListener("DOMContentLoaded", function(){
             modal8: "https://www.youtube.com/embed/Z1C3ZORzfDo?si=7aQltsiluQ3Q1VfU",
             modal9: "https://www.youtube.com/embed/j00xCv04QGI?si=rw6x4mJz0QMCFTDX",
             modal10: "https://www.youtube.com/embed/arFqggi2hnY?si=Q0ILKbTrwILIQaFv"
+           
         },
-        { // { TDS 5 }
+        { // { TDS 6 }
             modal1: "https://www.youtube.com/embed/AiaCSv3bAm8?si=jL3zhg0vrPqu3U2_",
             modal2: "https://www.youtube.com/embed/sYm0mJgFVV8?si=Dv8cVQufm48JRF4r",
             modal3: "https://youtube.com/shorts/xIZwj_pRxpc?si=bLOsi8ySYylfrm_D",
             modal4: "https://www.youtube.com/embed/5YHhqZae3XA?si=V515dV9fXteRN1ar"
-        },
-        { // { TDS 6 }
-            modal1: "https://www.youtube.com/embed/az57Kav9XE8?si=43CLktJ7v86RYWIK",
-            modal2: "https://www.youtube.com/embed/CbEhsMGNxVQ?si=a72womz7qieRPO1z",
-            modal3: "https://drive.google.com/file/d/1xeWQE3RejfSqtQk_y4GFgUyjWyLX1qlP/preview",
-            modal4: "https://www.youtube.com/embed/QVG_DN2X3U4?si=hY8KdPg1RIr1NDae",
-            modal5: "https://www.youtube.com/embed/kQiJ1qM9OPg?si=i9jDa3yr7jn3QWub",
-            modal6: "https://michaelbogota.github.io/adoc-page/PreparcionVideo.mp4",
-            modal7: "https://www.youtube.com/embed/JiUk6EHBqow?si=9n3qZI0nZq-9cmcr",
-            modal8: "https://www.youtube.com/embed/OUq7l4rKHm4?si=9x96GsQfPBRsWKJZ",
-            modal9: "https://www.youtube.com/embed/RA2jspIL1cM?si=0CsjIvAi72QPbvzC",
-            modal10: "https://www.youtube.com/embed/0gJK2C8toPY?si=24TBSWlpQT11U0Ix",
-            modal11: "https://www.youtube.com/embed/0go8DyPO8Uw?si=2K1xr4jv7AIQHCjo",
-            modal12: "https://www.youtube.com/embed/FEQ7TWzW-fo?si=OrSOm8mMNspq5wku"
         }
     ];
 
