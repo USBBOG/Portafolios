@@ -1,14 +1,10 @@
 document.addEventListener("DOMContentLoaded", function(){
     const youtubeModals = [
         { // { TDS 1 }
-            modal1: "https://www.youtube.com/embed/X0zKQ14ZwGI?si=7T1p_UV10sRFZ1xo",
-            modal2: "https://www.youtube.com/embed/cdjT2CsyBh0?si=xOEhneg1omTCBJRJ",
-            modal3: "https://www.youtube.com/embed/Qw_1CxXm6ZY?si=0rU0PsHK64Z5LFyU",
-            modal4: "https://www.youtube.com/embed/O_4NrYCWL_Q?si=Lpim07KV_Zg6dFdm",
-            modal5: "https://www.youtube.com/embed/WbGbmGW45U0?si=PqtcdsHPrMNsLY9q",
-            modal6: "https://www.youtube.com/embed/_k9zKF6v8YA?si=3hQuVkLOd7eSMwtk",
-            modal7: "https://www.youtube.com/embed/NM0dxXqlv74?si=cc8CU4cb--qwlN5u",
-            modal8: "https://drive.google.com/file/d/1mhGm3kUDYMLiZyLqkEGNQcnEcWmzCtTr/preview"
+            modal1: "https://www.youtube.com/embed/-OQIJThpId4?si=7ig65iVXrJ9liq44",
+            modal2: "https://www.youtube.com/embed/LS3M0xJ6ZFM?si=jz5qsrCzUvpjlb1X",
+            modal3: "https://youtube.com/shorts/Zpfd0gm8QzM?si=zwVEOaReXs5UBbag",
+            modal4: "https://www.youtube.com/embed/zxIvoqD4gmw?si=PXr4p0YsYhK7MNZn",
         },
         { // { TDS 2 }
             modal1: "https://www.youtube.com/embed/X0zKQ14ZwGI?si=7T1p_UV10sRFZ1xo",
