@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function(){
         { // { TAI 3 }
 
             modal1: "https://www.youtube.com/embed/1FvusBCVfvs?si=uUjjKrg4iTkrcLpG",
-            modal2: "https://www.youtube.com/embed/22q6pZJb5KE?si=qBCR02LxGOcj7d3j",
+            modal2: "https://drive.google.com/file/d/17zLh8P-QSOB6v_XqxafEequR7FUlG-2h/preview",
             modal3: "https://drive.google.com/file/d/10DS63ysPgO_XMaO0jsqdMobsIB4IzBag/preview",
             modal4: "https://www.youtube.com/embed/hHfB8FRM_fo?si=rldn0WnBl7t8zCR2",
             modal5: "https://www.youtube.com/embed/8t41IBHIpXo?si=JSse_9UYXLRYEKm5",

@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
         },
         { // { TDS 3 }
-            modal1: "https://www.youtube.com/embed/22q6pZJb5KE?si=_98Ez6cX-9gxZ2Z_",
+            modal1: "https://drive.google.com/file/d/17zLh8P-QSOB6v_XqxafEequR7FUlG-2h/preview",
             modal2: "https://drive.google.com/file/d/15E8zK_nxFCN8tlNhy5A_Got4_5d4blH1/preview",
             modal3: "https://www.youtube.com/embed/1Q58XUVZ6YE?si=ef-zdhrm5BqByIVi",
             modal4: "https://www.youtube.com/embed/8t41IBHIpXo?si=JSse_9UYXLRYEKm5",
