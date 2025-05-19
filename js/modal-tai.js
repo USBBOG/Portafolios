@@ -5,7 +5,8 @@ document.addEventListener("DOMContentLoaded", function(){
             modal2: "https://www.youtube.com/embed/my4IZRjGOqo?si=DU1SgZ6htwLpeuac",
             modal3: "https://www.youtube.com/embed/FYglrXkDCNE?si=ArnwDa56jAxPyZ1i",
             modal4: "https://www.youtube.com/embed/2ReQi94IgCA?si=HMGMi_FrBu8uk-fM",
-            modal5: "https://www.youtube.com/embed/DtEmYCIBABs?si=DBLhzQMnk8DOeh45"
+            modal5: "https://www.youtube.com/embed/DtEmYCIBABs?si=DBLhzQMnk8DOeh45",
+            modal6: ""
         },
         { // { TAI 2 }
             modal1: "https://www.youtube.com/embed/Qw_1CxXm6ZY?si=0rU0PsHK64Z5LFyU",

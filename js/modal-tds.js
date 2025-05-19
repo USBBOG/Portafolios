@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function(){
             modal2: "https://www.youtube.com/embed/LS3M0xJ6ZFM?si=jz5qsrCzUvpjlb1X",
             modal3: "https://youtube.com/shorts/Zpfd0gm8QzM?si=zwVEOaReXs5UBbag",
             modal4: "https://www.youtube.com/embed/zxIvoqD4gmw?si=PXr4p0YsYhK7MNZn",
+            modal5: "https://www.youtube.com/embed/cqFWBjCdTUc?si=YhNX76kxACapTZpY",
         },
         { // { TDS 2 }
             modal1: "https://www.youtube.com/embed/X0zKQ14ZwGI?si=7T1p_UV10sRFZ1xo",
@@ -23,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function(){
             modal3: "https://www.youtube.com/embed/1Q58XUVZ6YE?si=ef-zdhrm5BqByIVi",
             modal4: "https://www.youtube.com/embed/8t41IBHIpXo?si=JSse_9UYXLRYEKm5",
             modal5: "https://www.youtube.com/embed/oyN8IWOUmsE?si=QplThvJ1hSdaVJp4",
-            modal6: "https://www.youtube.com/embed/BiTWio8yyPs?si=HigdC8zj-jrZOyf5",
+            modal6: "https://drive.google.com/file/d/1FUCoGyG9rficd76gSH2SPkrguH-vsbIu/preview",
             modal7: "https://www.youtube.com/embed/P28-4Icbv5k?si=Ueg3G7WMMAoblOUr",
             modal8: "",
             modal9: "https://drive.google.com/file/d/1tisM-MYMDlqqa6aifUALO0GnS5n5Ir2E/preview",
