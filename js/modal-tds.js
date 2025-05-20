@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function(){
             modal6: "https://www.youtube.com/embed/C1qEQOyne8A?si=TpQntL5BCDGoaJS-",
             modal8: "https://drive.google.com/file/d/1nY690owX_dgwABDyIGGYX27l0yBKXoki/preview",
             modal9: "",
-            modal10: "https://www.youtube.com/embed/AnS2guMmKh8?si=nVcnrftPFV-tZFqu"
+            modal10: "https://www.youtube.com/embed/Li7bQG6bBko?si=we4TXEJJo0GShpPO"
            
         },
         { // { TDS 5 }
