@@ -1,294 +1,487 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Portafolios proyectos - Tecnologías USBBOG</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!--Bootstrap-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="assets/pit-white.png" alt="Logo pit" width="110"
-                    height="110"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" id="inactive" href="index.html">INICIO</a></li>
-                    <li class="nav-item"><a class="nav-link active" id="active" href="tai.html">TAI</a></li>
-                    <li class="nav-item"><a class="nav-link" id="inactive" href="tds.html">TDS</a></li>
-                    <li class="nav-item"><a class="nav-link" id="inactive" href="rubricas.html">RÚBRICAS</a></li>
-                    <li class="nav-item"><a class="nav-link" id="inactive" href="historial.html">HISTORIAL</a></li>
-                </ul>
-            </div>
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            src="assets/pit-white.png"
+            alt="Logo pit"
+            width="110"
+            height="110"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" id="inactive" href="index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" id="active" href="tai.html">TAI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="inactive" href="tds.html">TDS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="inactive" href="rubricas.html"
+                >RÚBRICAS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="inactive" href="historial.html"
+                >HISTORIAL</a
+              >
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <!--Page Content-->
     <section class="container mt-5">
-        <div class="row text-center mb-4">
-            <div class="col-1 d-flex justify-content-start align-items-top">
-                <button class="btn btn-white" onclick="window.history.back();">
-                    <i class="bi bi-arrow-left fs-4"></i>
-                </button>
-            </div>
-            <div class="col-9">
-                <h1 class="fw-bolder mb-4">Semestre 3</h1>
-            </div>
+      <div class="row text-center mb-4">
+        <div class="col-1 d-flex justify-content-start align-items-top">
+          <button class="btn btn-white" onclick="window.history.back();">
+            <i class="bi bi-arrow-left fs-4"></i>
+          </button>
         </div>
-        
-        <!--Projects-->
-        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-3">
-            <!--Project 1-->
-            <div class="col">
-                <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal1">
-                    <img src="assets/tai/s3/1.png" class="card-img-top" alt="">
-                    <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">SDRYER</h5>
-                    </div>
-                    <div class="card-footer text-center g-1">
-                        <span class="badge text-bg-dark">Hogar</span>
-                        <span class="badge text-bg-dark">Innovación</span>
-                        <span class="badge text-bg-dark">Facilidad</span>
-                    </div>
-                </div>
-                <div class="modal" id="modal1">
-                    <div class="modal-dialog modal-dialog-centered modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header bg bg-dark text-bg-dark">
-                                <h4 class="modal-title">SDRYER</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="ratio ratio-16x9" id="youtube-container-modal1">
-                                    
-                                </div>
-                                <p class="mt-3">
-                                    El proyecto Sdryer tiene como propósito transformar una tarea de hogar que suele ser tardada e incómoda en aquellos lugares donde no se cuenta con el espacio suficiente para el secado de prendas. Ejemplos: apartamentos, casas rodantes, habitaciones, etc; ya sea por políticas de propiedad (con las cuales betan los espacios de ventanas para estas actividades), o por simple falta de ventilación.
-                                </p>
-                            </div>
-                            <div class="modal-footer align-items-center justify-content-center mt-2 mb-2">
-                                <a href="https://alejandroibanhez.github.io/PaginaProyecto/" style="text-decoration: none;" target="_blank-button">
-                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--Proyect 2-->
-            <div class="col">
-                <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal2">
-                    <img src="assets/tai/s3/2.png" class="card-img-top" alt="">
-                    <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">ArtByte Technology</h5>
-                    </div>
-                    <div class="card-footer text-center g-1">
-                        <span class="badge text-bg-dark">Completo</span>
-                        <span class="badge text-bg-dark">Innovación</span>
-                        <span class="badge text-bg-dark">Creativo</span>
-                    </div>
-                </div>
-                <div class="modal" id="modal2">
-                    <div class="modal-dialog modal-dialog-centered modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header bg bg-success text-bg-success">
-                                <h4 class="modal-title">ArtByte Technology</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="ratio ratio-16x9" id="youtube-container-modal2">
-                                    
-                                </div>
-                                <p class="mt-3">
-                                    El proyecto "Art Byte" pretende desarrollar una máquina autónoma para tatuar letras en el antebrazo. Se busca mejorar la precisión y eficiencia del proceso, empleando tecnología moderna. Se plantea el desarrollo de una aplicación que interactue con la maquina.
-                                </p>
-                            </div>
-                            <div class="modal-footer align-items-center justify-content-center mt-2 mb-2">
-                                <a href="https://mike-ki17.github.io/artbyte-technology-web/" style="text-decoration: none;" target="_blank-button">
-                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio </button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--Project 3-->
-            <div class="col">
-                <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal3">
-                    <img src="assets/tai/s3/3.png" class="card-img-top" alt="">
-                    <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">Safe Steps</h5>
-                    </div>
-                    <div class="card-footer text-center g-1">
-                        <span class="badge text-bg-dark">Cuidado</span>
-                        <span class="badge text-bg-dark">Inclución</span>
-                        <span class="badge text-bg-dark">Innovación</span>
-                    </div>
-                </div>
-                <div class="modal" id="modal3">
-                    <div class="modal-dialog modal-dialog-centered modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header bg bg-primary text-bg-primary">
-                                <h4 class="modal-title">Safe Steps</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="ratio ratio-16x9" id="youtube-container-modal3">
-                                    
-                                </div>
-                                <p class="mt-3">
-                                    Safes Steps es un proyecto enfocado en dar solución a las problematicas que enfrentan las personas con discapacidad visual, brindando una solución que toma las herramientas ya existentes y adapta herramientas digitales para que ellos puedan optimizar sus desplazamientos y asi mejorar su calidad de vida
-                                </p>
-                            </div>
-                            <div class="modal-footer align-items-center justify-content-center mt-2 mb-2">
-                                <a href="https://dfarfan1108.github.io/SAFE-STEPS/index.html" style="text-decoration: none;" target="_blank-button">
-                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--Proyect 4-->
-            <div class="col">
-                <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal4">
-                    <img src="assets/tai/s3/4.png" class="card-img-top" alt="">
-                    <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">MEDFLY</h5>
-                    </div>
-                    <div class="card-footer text-center g-1">
-                        <span class="badge text-bg-dark">Medicamentos</span>
-                        <span class="badge text-bg-dark">Salud</span>
-                        <span class="badge text-bg-dark">Innovación</span>
-                    </div>
-                </div>
-                <div class="modal" id="modal4">
-                    <div class="modal-dialog modal-dialog-centered modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header bg bg-danger text-bg-danger">
-                                <h4 class="modal-title">MEDFLY</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="ratio ratio-16x9" id="youtube-container-modal4">
-                            
-                                </div>
-                                <p class="mt-3">
-                                    En la actualidad acceder a servicios de medicina es un desafío significativo para las poblaciones que viven en zonas de difícil acceso, las condiciones de infraestructura, limitaciones geográficas, edad avanzada de los pacientes, entre otras circunstancias complican significativamente la entrega de suministros médicos.
-                                    Frente a esta problemática este proyecto busca de manera innovadora fabricar un Dron que permita beneficiar y solucionar la entrega de medicamentos con un peso aproximado de 150g.
-                                </p>
-                            </div>
-                            <div class="modal-footer align-items-center justify-content-center mt-5 mb-2">
-                                <a href="https://alejandroibanhez.github.io/Portafolio-MedFly/" style="text-decoration: none;" target="_blank-button">
-                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--Proyect 5-->
-            <div class="col">
-                <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal5">
-                    <img src="assets/tai/s3/5.png" class="card-img-top" alt="">
-                    <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">Doce Digital</h5>
-                    </div>
-                    <div class="card-footer text-center g-1">
-                        <span class="badge text-bg-dark">Marketing</span>
-                        <span class="badge text-bg-dark">Negocios</span>
-                        <span class="badge text-bg-dark">Publicidad</span>
-                    </div>
-                </div>
-                <div class="modal" id="modal5">
-                    <div class="modal-dialog modal-dialog-centered modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header bg bg-danger text-bg-danger">
-                                <h4 class="modal-title">Doce Digital</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="ratio ratio-16x9" id="youtube-container-modal5">
-                                    
-                                </div>
-                                <p class="mt-3">
-                                    En nuestra empresa de marketing y publicidad, nos apasiona impulsar el éxito de los restaurantes de todos los estilos gastronómicos. Desde comida gourmet hasta sabores tradicionales, la idea es que todos nuestros usuarios encuentren opciones para su estilo de vida y gusto personal, estamos comprometidos a destacar la esencia única de cada establecimiento. Con estrategias innovadoras y creativas, ayudamos a nuestros clientes a destacarse en un mercado competitivo, captando la atención de nuevos clientes y fidelizando a los existentes. Ya sea a través de campañas en redes sociales o estrategias de marketing digital, estamos aquí para llevar la visión de nuestros restaurantes aliados a un siguiente nivel.
-                                </p>
-                            </div>
-                            <div class="modal-footer align-items-center justify-content-center mt-5 mb-2">
-                                <a href="https://jdrodriguez037.github.io/12/" style="text-decoration: none;" target="_blank-button">
-                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--Project 6-->
-            <div class="col">
-                <div class="card shadow" data-bs-toggle="modal" data-bs-target="#modal6">
-                    <img src="assets/tai/s3/6.png" class="card-img-top" alt="">
-                    <div class="card-body text-center shadow-sm">
-                        <h5 class="card-title text-black">Weel Up</h5>
-                    </div>
-                    <div class="card-footer text-center g-1">
-                        <span class="badge text-bg-dark">Información</span>
-                        <span class="badge text-bg-dark">Recorridos</span>
-                        <span class="badge text-bg-dark">Rodada</span>
-                    </div>
-                </div>
-                <div class="modal" id="modal6">
-                    <div class="modal-dialog modal-dialog-centered modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header bg bg-primary text-bg-primary">
-                                <h4 class="modal-title">Weel Up</h4>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="ratio ratio-16x9" id="youtube-container-modal6">
-                                    
-                                </div>
-                                <p class="mt-3">
-                                    Weel Up te ofrece varias ventajas para tu rodada. Con esta aplicación, puedes: 1 Saber cuántas personas van en tu rodada. 2 Obtener el tiempo estimado que te llevará trasladarte de un punto a otro. 3 En caso de que alguien se varé, podrás enviar un mensaje de alerta.
-                                </p>
-                            </div>
-                            <div class="modal-footer align-items-center justify-content-center mt-2 mb-2">
-                                <a href="https://vivia325.github.io/weel-up.github.io/" style="text-decoration: none;" target="_blank-button">
-                                    <button type="button" class="btn btn-lg bg bg-dark text-white border border-color-none rounded"><i class="bi bi-github"></i>  Portafolio</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+        <div class="col-9">
+          <h1 class="fw-bolder mb-4">Semestre 3</h1>
         </div>
+      </div>
+
+      <!--Projects-->
+      <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-3">
+        <!--Project 1-->
+        <div class="col">
+          <div
+            class="card shadow"
+            data-bs-toggle="modal"
+            data-bs-target="#modal1"
+          >
+            <img src="assets/tai/s3/1.png" class="card-img-top" alt="" />
+            <div class="card-body text-center shadow-sm">
+              <h5 class="card-title text-black">SDRYER</h5>
+            </div>
+            <div class="card-footer text-center g-1">
+              <span class="badge text-bg-dark">Hogar</span>
+              <span class="badge text-bg-dark">Innovación</span>
+              <span class="badge text-bg-dark">Facilidad</span>
+            </div>
+          </div>
+          <div class="modal" id="modal1">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header bg bg-dark text-bg-dark">
+                  <h4 class="modal-title">SDRYER</h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <div
+                    class="ratio ratio-16x9"
+                    id="youtube-container-modal1"
+                  ></div>
+                  <p class="mt-3">
+                    El proyecto Sdryer tiene como propósito transformar una
+                    tarea de hogar que suele ser tardada e incómoda en aquellos
+                    lugares donde no se cuenta con el espacio suficiente para el
+                    secado de prendas. Ejemplos: apartamentos, casas rodantes,
+                    habitaciones, etc; ya sea por políticas de propiedad (con
+                    las cuales betan los espacios de ventanas para estas
+                    actividades), o por simple falta de ventilación.
+                  </p>
+                </div>
+                <div
+                  class="modal-footer align-items-center justify-content-center mt-2 mb-2"
+                >
+                  <a
+                    href="https://alejandroibanhez.github.io/PaginaProyecto/"
+                    style="text-decoration: none"
+                    target="_blank-button"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-lg bg bg-dark text-white border border-color-none rounded"
+                    >
+                      <i class="bi bi-github"></i> Portafolio
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Proyect 2-->
+        <div class="col">
+          <div
+            class="card shadow"
+            data-bs-toggle="modal"
+            data-bs-target="#modal2"
+          >
+            <img src="assets/tai/s3/2.png" class="card-img-top" alt="" />
+            <div class="card-body text-center shadow-sm">
+              <h5 class="card-title text-black">ArtByte Technology</h5>
+            </div>
+            <div class="card-footer text-center g-1">
+              <span class="badge text-bg-dark">Completo</span>
+              <span class="badge text-bg-dark">Innovación</span>
+              <span class="badge text-bg-dark">Creativo</span>
+            </div>
+          </div>
+          <div class="modal" id="modal2">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header bg bg-success text-bg-success">
+                  <h4 class="modal-title">ArtByte Technology</h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <div
+                    class="ratio ratio-16x9"
+                    id="youtube-container-modal2"
+                  ></div>
+                  <p class="mt-3">
+                    El proyecto "Art Byte" pretende desarrollar una máquina
+                    autónoma para tatuar letras en el antebrazo. Se busca
+                    mejorar la precisión y eficiencia del proceso, empleando
+                    tecnología moderna. Se plantea el desarrollo de una
+                    aplicación que interactue con la maquina.
+                  </p>
+                </div>
+                <div
+                  class="modal-footer align-items-center justify-content-center mt-2 mb-2"
+                >
+                  <a
+                    href="https://mike-ki17.github.io/artbyte-technology-web/"
+                    style="text-decoration: none"
+                    target="_blank-button"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-lg bg bg-dark text-white border border-color-none rounded"
+                    >
+                      <i class="bi bi-github"></i> Portafolio
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Project 3-->
+        <div class="col">
+          <div
+            class="card shadow"
+            data-bs-toggle="modal"
+            data-bs-target="#modal3"
+          >
+            <img src="assets/tai/s3/3.png" class="card-img-top" alt="" />
+            <div class="card-body text-center shadow-sm">
+              <h5 class="card-title text-black">Safe Steps</h5>
+            </div>
+            <div class="card-footer text-center g-1">
+              <span class="badge text-bg-dark">Cuidado</span>
+              <span class="badge text-bg-dark">Inclución</span>
+              <span class="badge text-bg-dark">Innovación</span>
+            </div>
+          </div>
+          <div class="modal" id="modal3">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header bg bg-primary text-bg-primary">
+                  <h4 class="modal-title">Safe Steps</h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <div
+                    class="ratio ratio-16x9"
+                    id="youtube-container-modal3"
+                  ></div>
+                  <p class="mt-3">
+                    Safes Steps es un proyecto enfocado en dar solución a las
+                    problematicas que enfrentan las personas con discapacidad
+                    visual, brindando una solución que toma las herramientas ya
+                    existentes y adapta herramientas digitales para que ellos
+                    puedan optimizar sus desplazamientos y asi mejorar su
+                    calidad de vida
+                  </p>
+                </div>
+                <div
+                  class="modal-footer align-items-center justify-content-center mt-2 mb-2"
+                >
+                  <a
+                    href="https://dfarfan1108.github.io/SAFE-STEPS/index.html"
+                    style="text-decoration: none"
+                    target="_blank-button"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-lg bg bg-dark text-white border border-color-none rounded"
+                    >
+                      <i class="bi bi-github"></i> Portafolio
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Proyect 4-->
+        <div class="col">
+          <div
+            class="card shadow"
+            data-bs-toggle="modal"
+            data-bs-target="#modal4"
+          >
+            <img src="assets/tai/s3/4.png" class="card-img-top" alt="" />
+            <div class="card-body text-center shadow-sm">
+              <h5 class="card-title text-black">MEDFLY</h5>
+            </div>
+            <div class="card-footer text-center g-1">
+              <span class="badge text-bg-dark">Medicamentos</span>
+              <span class="badge text-bg-dark">Salud</span>
+              <span class="badge text-bg-dark">Innovación</span>
+            </div>
+          </div>
+          <div class="modal" id="modal4">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header bg bg-danger text-bg-danger">
+                  <h4 class="modal-title">MEDFLY</h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <div
+                    class="ratio ratio-16x9"
+                    id="youtube-container-modal4"
+                  ></div>
+                  <p class="mt-3">
+                    En la actualidad acceder a servicios de medicina es un
+                    desafío significativo para las poblaciones que viven en
+                    zonas de difícil acceso, las condiciones de infraestructura,
+                    limitaciones geográficas, edad avanzada de los pacientes,
+                    entre otras circunstancias complican significativamente la
+                    entrega de suministros médicos. Frente a esta problemática
+                    este proyecto busca de manera innovadora fabricar un Dron
+                    que permita beneficiar y solucionar la entrega de
+                    medicamentos con un peso aproximado de 150g.
+                  </p>
+                </div>
+                <div
+                  class="modal-footer align-items-center justify-content-center mt-5 mb-2"
+                >
+                  <a
+                    href="https://alejandroibanhez.github.io/Portafolio-MedFly/"
+                    style="text-decoration: none"
+                    target="_blank-button"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-lg bg bg-dark text-white border border-color-none rounded"
+                    >
+                      <i class="bi bi-github"></i> Portafolio
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Proyect 5-->
+        <div class="col">
+          <div
+            class="card shadow"
+            data-bs-toggle="modal"
+            data-bs-target="#modal5"
+          >
+            <img src="assets/tai/s3/5.png" class="card-img-top" alt="" />
+            <div class="card-body text-center shadow-sm">
+              <h5 class="card-title text-black">Doce Digital</h5>
+            </div>
+            <div class="card-footer text-center g-1">
+              <span class="badge text-bg-dark">Marketing</span>
+              <span class="badge text-bg-dark">Negocios</span>
+              <span class="badge text-bg-dark">Publicidad</span>
+            </div>
+          </div>
+          <div class="modal" id="modal5">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header bg bg-danger text-bg-danger">
+                  <h4 class="modal-title">Doce Digital</h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <div
+                    class="ratio ratio-16x9"
+                    id="youtube-container-modal5"
+                  ></div>
+                  <p class="mt-3">
+                    En nuestra empresa de marketing y publicidad, nos apasiona
+                    impulsar el éxito de los restaurantes de todos los estilos
+                    gastronómicos. Desde comida gourmet hasta sabores
+                    tradicionales, la idea es que todos nuestros usuarios
+                    encuentren opciones para su estilo de vida y gusto personal,
+                    estamos comprometidos a destacar la esencia única de cada
+                    establecimiento. Con estrategias innovadoras y creativas,
+                    ayudamos a nuestros clientes a destacarse en un mercado
+                    competitivo, captando la atención de nuevos clientes y
+                    fidelizando a los existentes. Ya sea a través de campañas en
+                    redes sociales o estrategias de marketing digital, estamos
+                    aquí para llevar la visión de nuestros restaurantes aliados
+                    a un siguiente nivel.
+                  </p>
+                </div>
+                <div
+                  class="modal-footer align-items-center justify-content-center mt-5 mb-2"
+                >
+                  <a
+                    href="https://jdrodriguez037.github.io/12/"
+                    style="text-decoration: none"
+                    target="_blank-button"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-lg bg bg-dark text-white border border-color-none rounded"
+                    >
+                      <i class="bi bi-github"></i> Portafolio
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Project 6-->
+        <div class="col">
+          <div
+            class="card shadow"
+            data-bs-toggle="modal"
+            data-bs-target="#modal6"
+          >
+            <img src="assets/tai/s3/6.png" class="card-img-top" alt="" />
+            <div class="card-body text-center shadow-sm">
+              <h5 class="card-title text-black">Weel Up</h5>
+            </div>
+            <div class="card-footer text-center g-1">
+              <span class="badge text-bg-dark">Información</span>
+              <span class="badge text-bg-dark">Recorridos</span>
+              <span class="badge text-bg-dark">Rodada</span>
+            </div>
+          </div>
+          <div class="modal" id="modal6">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header bg bg-primary text-bg-primary">
+                  <h4 class="modal-title">Weel Up</h4>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <div
+                    class="ratio ratio-16x9"
+                    id="youtube-container-modal6"
+                  ></div>
+                  <p class="mt-3">
+                    Weel Up te ofrece varias ventajas para tu rodada. Con esta
+                    aplicación, puedes: 1 Saber cuántas personas van en tu
+                    rodada. 2 Obtener el tiempo estimado que te llevará
+                    trasladarte de un punto a otro. 3 En caso de que alguien se
+                    varé, podrás enviar un mensaje de alerta.
+                  </p>
+                </div>
+                <div
+                  class="modal-footer align-items-center justify-content-center mt-2 mb-2"
+                >
+                  <a
+                    href="https://vivia325.github.io/weel-up.github.io/"
+                    style="text-decoration: none"
+                    target="_blank-button"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-lg bg bg-dark text-white border border-color-none rounded"
+                    >
+                      <i class="bi bi-github"></i> Portafolio
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Footer-->
     <footer class="mt-5 py-5 bg-dark">
-        <div class="container">
-            <p class="mb-5 text-center text-white">Copyright &copy; USBBOG 2023</p>
-        </div>
+      <div class="container">
+        <p class="mb-5 text-center text-white">Copyright &copy; USBBOG 2023</p>
+      </div>
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -296,7 +489,5 @@
     <script src="js/scripts.js"></script>
     <!-- JavaScript for Modals-->
     <script src="js/modal-tai.js"></script>
-</body>
-
+  </body>
 </html>
-
